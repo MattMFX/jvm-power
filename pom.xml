@@ -45,13 +45,11 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- jRAPL (local JAR) -->
+        <!-- jRAPL (installed in local repository) -->
         <dependency>
             <groupId>jrapl</groupId>
             <artifactId>jRAPL</artifactId>
             <version>3.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/jRAPL-3.0.jar</systemPath>
         </dependency>
     </dependencies>
 

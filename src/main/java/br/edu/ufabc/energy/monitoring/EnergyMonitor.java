@@ -38,7 +38,7 @@ public class EnergyMonitor {
         
         try {
             // Try to load jRAPL classes using reflection
-            energyCheckUtilsClass = Class.forName("jrapl.EnergyCheckUtils");
+            energyCheckUtilsClass = Class.forName("jRAPL.EnergyCheckUtils");
             
             // Get required methods
             initMethod = energyCheckUtilsClass.getMethod("init");

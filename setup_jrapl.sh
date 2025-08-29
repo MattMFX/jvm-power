@@ -24,7 +24,7 @@ if [ -f "jRAPL.jar" ]; then
     echo "JRAPL compilado com sucesso!"
     
     # Copiar para o diretório lib do projeto
-    PROJECT_DIR="/Users/mfmachado/UFABC/Projeto_PGC"
+    PROJECT_DIR="/Users/mfmachado/UFABC/Projeto_PGC/jvm-power"
     cp jRAPL.jar "$PROJECT_DIR/lib/jRAPL-3.0.jar"
     
     echo "JAR copiado para $PROJECT_DIR/lib/jRAPL-3.0.jar"
@@ -46,7 +46,7 @@ else
     echo "Criando JAR placeholder..."
     
     # Criar JAR placeholder se a compilação falhar
-    PROJECT_DIR="/Users/mfmachado/UFABC/Projeto_PGC"
+    PROJECT_DIR="/Users/mfmachado/UFABC/Projeto_PGC/jvm-power"
     cd "$PROJECT_DIR"
     
     # Criar estrutura de classes placeholder
